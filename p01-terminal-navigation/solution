@@ -1,0 +1,11 @@
+mkdir MyPortfolio
+cd MyPortfolio
+pwd
+mkdir images
+touch index.html
+touch style.css
+touch script.js
+ls
+cd ..
+cd MyPortfolio
+ls
