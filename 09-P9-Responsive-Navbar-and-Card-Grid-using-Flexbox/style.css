@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  background: #1a1a1a;
+  padding: 16px 32px;
+}
+
+.navbar .brand {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.navbar .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 32px;
+}
+
+.card {
+  flex: 1 1 250px;
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+@media (max-width: 600px) {
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
