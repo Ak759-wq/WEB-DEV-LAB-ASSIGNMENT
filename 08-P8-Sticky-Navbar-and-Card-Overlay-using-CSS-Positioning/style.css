@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #1a1a1a;
+  color: #ffffff;
+  padding: 16px;
+  z-index: 100;
+}
+
+.navbar a {
+  color: #ffffff;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 32px;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: #60a5fa;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+.card .overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  box-sizing: border-box;
+}
